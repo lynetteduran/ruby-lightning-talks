@@ -39,7 +39,7 @@ Next, add a way for the user to add their own tag in the "add a user" form, in t
 ```
 <%= f.label :tags %>
 <%= f.text_field :tag_list %>
-```tags
+```
 
 Now, let's add a way to see the tags in the user show file:
 
@@ -65,7 +65,7 @@ end
 Finally, we'll add a route for our Tagged action
 
 ```
-get "tagged", to: "posts#tagged", as: "tagged"
+get "tagged", to: "users#tagged", as: "tagged"
 end
 ```
 
