@@ -6,7 +6,7 @@ Handles generic tagging in the view by displaying select model attributes, behav
 ## Whats So Great About Acts-as-taggable-on
 
 <li> Adds tag and tag clouds/calculations!
-<li> Can add more than one tag per model (upgrade from acts-ass-taggable-on-steroids)!
+<li> Can add more than one tag per model (upgrade from acts-as-taggable-on-steroids)!
 
 
 ## Why use Acts-as-taggable-on
