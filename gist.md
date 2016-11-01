@@ -77,17 +77,24 @@ Open your Gemfile in your Rails app and add the following (consult the gem githu
 
 In your terminal, while in your Rails app, run:
 
+
 ```bundle```
+
 
 Then
 
+
 ```rake acts_as_taggable_on_engine:install:migrations```
 
+
 Don't forget to migrate!
+
 
 ```rake db:migrate```
 
 Now you are ready to tag away!
+
+
 
 ## Resources
 
