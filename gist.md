@@ -39,9 +39,11 @@ Next, add a way for the user to add their own tag in the "add a user" form, in t
 ```
 <%= f.label :tags %>
 <%= f.text_field :tag_list %>
-```tags
+```
+
 
 Now, let's add a way to see the tags in the user show file:
+
 
 ```
 <% @user.tags.any? %>
@@ -51,6 +53,7 @@ Now, let's add a way to see the tags in the user show file:
 ```
 
 Next, we need to add a "tagged" method to the users controller
+
 
 ```
 def tagged
