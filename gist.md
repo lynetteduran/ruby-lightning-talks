@@ -64,9 +64,7 @@ end
 
 Finally, we'll add a route for our Tagged action
 
-```
-get "tagged", to: "posts#tagged", as: "tagged"
-end
+```get "tagged", to: "posts#tagged", as: "tagged"
 ```
 
 ## Setup?
@@ -74,6 +72,7 @@ end
 Open your Gemfile in your Rails app and add the following (consult the gem github page for latest versions):
 
 ```gem 'acts-as-taggable-on', '~> 4.0'```
+
 
 In your terminal, while in your Rails app, run:
 
