@@ -68,7 +68,7 @@ end
 Finally, we'll add a route for our Tagged action
 
 ```
-get 'tagged', to: 'posts#tagged', as: 'tagged'
+get 'tagged', to: 'users#tagged', as: 'tagged'
 ```
 
 
