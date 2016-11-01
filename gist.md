@@ -82,7 +82,9 @@ Open your Gemfile in your Rails app and add the following (consult the gem githu
 In your terminal, while in your Rails app, run:
 
 
-```bundle```
+```
+bundle
+```
 
 
 Then
